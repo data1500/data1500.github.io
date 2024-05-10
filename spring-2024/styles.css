@@ -1,0 +1,99 @@
+header {
+	text-align: center;
+	padding: 60px 10px 0px;
+	max-width: 660px;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: Cousine;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.toplink {
+	text-decoration: none;
+	color: black;
+}
+
+.toplink:hover {
+	color: #3986bd;
+}
+
+h2 {
+	color: rgba(0,0,0,0.3);
+}
+
+header p {
+	font-family: Sanchez;
+	font-size: 1.5em;
+}
+
+header .border {
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	height: 1px;
+	margin-top: 40px;
+}
+
+article {
+	padding: 40px 15px 200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+article .project {
+	text-decoration: none;
+	padding: 10px 15px 25px;
+}
+
+article a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+article a:hover img {
+	opacity: 0.65;
+}
+
+article .project-container {
+	width: 340px;
+	max-width: 100%;
+	color: black;
+}
+
+article .project-container p {
+	font-size: 1.25em;
+	margin: 2px 0px;
+	font-family: Sanchez;
+}
+
+article .project-container p span {
+	color: rgba(0,0,0,0.3);
+}
+
+
+.project-container img {
+	width: 100%;
+	margin-top: 8px;
+}
+
+.project-container .fake-image {
+	width: 100%;
+	margin-top: 10px;
+	background-color: #ccc;
+	padding-bottom: 50%;
+}
+
+@media (max-width: 600px){
+	h1,h2 {
+		font-size: 2.5em;
+	}
+	header p {
+		font-size: 1.2em;
+	}
+}
